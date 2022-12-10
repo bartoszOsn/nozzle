@@ -1,5 +1,6 @@
 import { ServiceConstructor } from './ServiceConstructor';
 
+// @ts-expect-error: "'T' is declared but its value is never read."
 export class InjectionToken<T> {
 	constructor(public readonly name: string) { }
 }

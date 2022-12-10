@@ -48,6 +48,6 @@ export class StaticInjector extends Injector {
 	}
 
 	private getProvider<T>(token: Token<T>): Provider<T> | undefined {
-		return this.providers.get(token);
+		return this.providers.get(token) as Provider<T> | undefined;
 	}
 }
