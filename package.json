@@ -1,0 +1,16 @@
+{
+  "name": "nozzle",
+  "version": "0.1.0",
+  "description": "A dependency injection library, with additional libraries providing integration with vue, react or svelte",
+  "main": "index.js",
+  "repository": "https://github.com/bartoszOsn/nozzle.git",
+  "author": "bartoszOsn <bartosz.osinski.dev@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "verify-version": "tsx scripts/verify-version.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.12"
+  }
+}
