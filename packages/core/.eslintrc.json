@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@bartoszosn/personal"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "root": true,
+  "ignorePatterns": [
+    "**/*.d.ts",
+    "dist/**/*"
+  ]
+}
