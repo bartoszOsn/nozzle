@@ -1,6 +1,7 @@
-import { defineConfig } from 'vite';
+/* eslint-env node */
+
 import * as Path from 'path';
-import dtsPlugin from 'vite-plugin-dts';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
 	build: {

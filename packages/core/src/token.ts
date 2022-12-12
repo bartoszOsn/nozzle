@@ -1,11 +1,11 @@
 import { ServiceConstructor } from './ServiceConstructor';
 
 // @ts-expect-error: "'T' is declared but its value is never read."
-export class InjectionToken<T> {
+export class InjectionToken<T> { // eslint-disable-line @typescript-eslint/no-unused-vars
 	constructor(public readonly name: string) { }
 }
 
-export class MultiInjectionToken<T> extends InjectionToken<T[]> {
+export class MultiInjectionToken<T> extends InjectionToken<Array<T>> {
 	constructor(name: string) {
 		super(name);
 	}
