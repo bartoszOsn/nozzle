@@ -14,6 +14,7 @@ export class MultiInjectionToken<T> extends InjectionToken<T[]> {
 export type Token<T> = InjectionToken<T> | ServiceConstructor<T>;
 
 export function tokenToString(token: Token<unknown>): string {
+	// I don't know why, but without this check IDE shows error
 	if (token instanceof InjectionToken) {
 		return token.name;
 	} else {
