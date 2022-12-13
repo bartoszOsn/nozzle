@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "verify-version": "tsx scripts/verify-version.ts"
+    "verify-version": "tsx scripts/verify-package.ts"
   },
   "devDependencies": {
-    "@types/node": "^18.11.12"
+    "@types/node": "^18.11.14"
   }
 }
